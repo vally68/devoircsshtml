@@ -82,25 +82,21 @@ blockquote{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .second-section>article{
-    flex-grow: 4;
+    flex-grow: 2;
     align-self: self-start;
+    text-align: center;
+    width: 50%;
 }
 .second-section>article>h2{
  padding: 1em;
- text-align: center;
-
 }
 
-.second-section>article>h3{
- text-align: center;
-
-}
 .second-section>article>p{
  padding: 1em;
- text-align: center;
 }
 
 /* .flex-container{
