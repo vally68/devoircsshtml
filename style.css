@@ -21,10 +21,12 @@ header{
     
 }
 body{
-	position:absolute;
+	position:relative;
     background-image:  url("img/h5-revolution-img-1.jpg");
     background-repeat: no-repeat;
+    
     z-index: 1;
+   
    
     
 
@@ -110,9 +112,11 @@ blockquote{
     text-transform: uppercase;
     color: #f1f0f0;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 50px;
 }
 
 .white{
     color: white;
 }
+
