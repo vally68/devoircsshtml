@@ -157,7 +157,8 @@ blockquote{
 
 .second-section>article>div>p{
  padding-bottom: 1em;
-} */
+} 
+
 
 /* .flex-container{
     display: flex;
@@ -168,6 +169,71 @@ blockquote{
     background-color: rgba(0, 0, 0, 0.5);
     
 } */
+
+/* ********************* section galleries */
+
+.gallerie{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallerie>figure{
+
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.gallerie>figure>img{
+    width: 25%;
+}
+
+
+
+/* ******************* Section service */
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services>article{
+
+    text-align: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.services>article>div{
+
+    width:100%;
+    margin: auto;
+
+}
+.services>figure{
+    width:100%;
+    text-align: center;
+}
+.services>figure>img{
+    width:100%;
+    
+}
+
+.services>article>div>h3{
+    padding-bottom: 1em;
+}
+
+
+.services>article>div>p{
+ padding-bottom: 1em;
+} 
+
 
 
 
