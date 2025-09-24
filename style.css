@@ -37,6 +37,44 @@ h1
 a:visited{
     color: beige;
 }
+
+ .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+ 
+
+
+nav li{
+    display: inline;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+nav a:hover {
+    color: rgb(175, 175, 175);
+
+}
+
+
+
+.menu > h1 {
+  
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.liste {
+  
+  
+
+  font-size: 30px;
+}
+
+/* *********premiere section */
 .first-section{
 	display: flex;
     flex-direction: column;
@@ -77,27 +115,49 @@ blockquote{
     padding: 1em;
     
 }
+/* 
+*****************************************deuxième section ************************************ */
 
 .second-section{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
 }
 
 .second-section>article{
-    flex-grow: 2;
-    align-self: self-start;
+
     text-align: center;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.second-section>article>h2{
- padding: 1em;
+.second-section>article>div{
+
+    width:90%;
+    margin: auto;
+
+}
+.second-section>figure{
+    width:50%;
+    text-align: center;
+}
+.second-section>figure>img{
+    width:50%;
+    
 }
 
-.second-section>article>p{
- padding: 1em;
+ .second-section>article>div>h2{
+ padding-bottom: 1em;
+} 
+.second-section>article>div>h3{
+    padding-bottom: 1em;
 }
+
+
+.second-section>article>div>p{
+ padding-bottom: 1em;
+} */
 
 /* .flex-container{
     display: flex;
@@ -110,41 +170,7 @@ blockquote{
 } */
 
 
- .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-  
- 
 
-
-nav li{
-    display: inline;
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-}
-nav a:hover {
-    color: rgb(175, 175, 175);
-
-}
-
-
-
-.menu > h1 {
-  
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-}
-
-.liste {
-  
-  
-
-  font-size: 30px;
-}
 
 .flex-container > div {
   
