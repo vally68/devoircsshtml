@@ -1,3 +1,5 @@
+/* ******************************General**************************************************** */
+
 *{
     padding: 0;
     margin: 0;
@@ -9,9 +11,10 @@
   --white: #ffffff;
 }
 
+/* ***********************************En-tête********************************************************* */
+
 header{
     display: flex;
-    
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
     padding: 20px;
@@ -20,31 +23,12 @@ header{
     z-index: 4;
     
 }
-body{
-	position:relative;
-    background-image:  url("img/h5-revolution-img-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;   
-    background-position: center; 
-    height: 100vh; 
-    margin: 0;
-    z-index: 1;
-   
-   
-    
 
-}
-.pos{
-    display: flex;
-    justify-content: center;
-	position:relative;
-    z-index: 2;
-    margin-top: 15px;
-}
-
-body a
+a
 {
-text-decoration:none;
+    text-decoration:none;
+    color: white;
+
 }
 h1
 {
@@ -53,6 +37,49 @@ h1
 a:visited{
     color: beige;
 }
+.first-section{
+	display: flex;
+    flex-direction: column;
+    background-image:  url("img/h5-revolution-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center; 
+    height: 100vh; 
+    justify-content: space-between;
+   
+  
+   
+   
+    
+
+}
+.logo{
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    
+    
+}
+.logo>img{
+    margin: auto;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+blockquote{
+    background-color: rgb(197, 157, 95);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f1f0f0;
+    padding: 1em;
+    
+}
+
+
+
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -107,19 +134,11 @@ nav a:hover {
   font-size: 30px;
 }
 
-blockquote{
-    background-color: rgb(197, 157, 95);
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #f1f0f0;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
-}
+
 
 .white{
     color: white;
 }
-
+#parallax>figure>img{
+    width:100%;
+}
