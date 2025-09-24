@@ -78,9 +78,32 @@ blockquote{
     
 }
 
+.second-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.second-section>article{
+    flex-grow: 4;
+    align-self: self-start;
+}
+.second-section>article>h2{
+ padding: 1em;
+ text-align: center;
 
-.flex-container{
+}
+
+.second-section>article>h3{
+ text-align: center;
+
+}
+.second-section>article>p{
+ padding: 1em;
+ text-align: center;
+}
+
+/* .flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,7 +111,7 @@ blockquote{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     
-}
+} */
 
 
  .menu {
